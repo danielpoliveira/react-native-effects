@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, Animated} from 'react-native';
+import {View, Animated} from 'react-native';
 
 import { PanGestureHandler  } from 'react-native-gesture-handler';
 
@@ -31,6 +31,6 @@ export default () => {
       </PanGestureHandler>
       
     </View>
-)
+  )
 }
 

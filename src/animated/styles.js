@@ -5,7 +5,8 @@ export default StyleSheet.create({
     flex: 1,
     justifyContent: "space-around",
     flexDirection: "column",
-    backgroundColor: "#fff"
+    backgroundColor: "#fff",
+    alignItems: "center"
   },
 
   circle: {

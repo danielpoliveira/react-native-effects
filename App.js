@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import Test from './src/animated/rotate'
+//import Rotate from './src/animated/rotate'
+import Scale from './src/animated/scale'
 
-export default Test;
+export default Scale;
