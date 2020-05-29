@@ -1,7 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet, Animated} from 'react-native';
+import {View, Text, Animated} from 'react-native';
 
 import { PanGestureHandler  } from 'react-native-gesture-handler';
+
+import styles from '../styles';
 
 export default () => {
 
@@ -32,19 +34,3 @@ export default () => {
 )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "space-around",
-    flexDirection: "column",
-    backgroundColor: "#fff"
-  },
-
-  circle: {
-      width: 150,
-      height: 150,
-      backgroundColor: "#c00000",
-      borderRadius: 100
-    },
-
- })
